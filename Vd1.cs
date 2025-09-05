@@ -79,11 +79,7 @@ public class BadSchoolProgram {
                                 students.set(i, id + "|" + name + "|" + age + "|" + gpa);
                             }
                         }
-                    } else if (smenu == 4) {
-                        for (int i = 0; i < students.size(); i++) {
-                            String[] p = students.get(i).split("\\|");
-                            System.out.println("ID:" + p[0] + " Name:" + p[1] + " Age:" + p[2] + " GPA:" + p[3]);
-                        }
+                   
                     } else if (smenu == 5) {
                         System.out.print("Nhap ten: ");
                         String name = sc.nextLine();
